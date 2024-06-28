@@ -13,7 +13,7 @@ app.use(express.json());
 //* specific
 app.use(
   cors({
-    origin: "https://tutorialapp-fs-de8-4a96.onrender.com/",//* sondaki slash olmayacak. sadece localhost:3000 e izin ver. Host adresi
+    origin: "https://tutorialapp-fs-de8-chi.vercel.app",//* sondaki slash olmayacak. sadece localhost:3000 e izin ver. Host adresi
     methods: "GET,HEAD,PUT,PATCH,POST,DELETE",//* methodlara verilecek izinleri ayarlanabilir.
   })
 );
