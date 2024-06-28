@@ -5,7 +5,7 @@ import AddBilgi from "../components/AddBilgi";
 const Home = () => {
   const [tutorials, setTutorials] = useState([]);
 
-  const url = "https://tutorialapp-fs-de8-4a96.onrender.com/";
+  const url = "https://tutorialapp-fs-de8-4a96.onrender.com/tutorials/";
 
   //!GET (READ)
 
